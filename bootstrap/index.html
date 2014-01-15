@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/robot-game.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    
+  </head>
+  <body>
+    <div class='container'>
+      
+      <div class="row">
+        <h1>Welcome to Robotica!</h1>
+      </div>
+    
+      <div class="row">
+        <ul class="nav nav-tabs" id="myTab">
+          <li><a href="#head" class="active" data-toggle="tab">Head</a></li>
+          <li><a href="#body" data-toggle="tab">Body</a></li>
+          <li><a href="#arms" data-toggle="tab">Arms</a></li>
+          <li><a href="#legs" data-toggle="tab">Legs</a></li>
+        </ul>
+      </div>
+    
+      <div class="row">
+        <div class="tab-content">
+          <div id="head" class="tab-pane active">
+            <div id="head-1" class="span2 text-center">
+              <div class="item">
+                <img src="img/robot/heads/head-1.jpg" width="80" height="80" alt="Head 1">
+              </div>
+              <div class="fact">
+                0+3
+              </div>
+            </div>
+            <div id="head-2" class="span2 text-center">
+              <div class="item">
+                <img src="img/robot/heads/head-2.png" width="80" height="80" alt="Head 2">
+              </div>
+              <div class="fact">
+               6+3
+              </div>
+            </div>
+          </div>
+          <div id="body" class="tab-pane">
+            <div id="body-1" class="span2 text-center">
+              <div class="item">
+                <img src="img/robot/bodies/body-1.png" width="200" height="80" alt="Body 1">
+              </div>
+              <div class="fact">
+                10-3
+              </div>
+            </div>
+            <div id="body-2" class="span2 text-center">
+              <div class="item">
+                <img src="img/robot/bodies/body-2.png" width="200" height="80" alt="Body 2">
+              </div>
+              <div class="fact">
+                1+7
+              </div>
+            </div>
+          </div>
+          <div id="arms" class="tab-pane">
+            <div id="arms-1" class="span2 text-center">
+              <div class="item">
+                <img src="img/robot/arms/arms-1.png" width="355" height="240" alt="Arms 1">
+              </div>
+              <div class="fact">
+                27-20
+              </div>
+            </div>
+          </div>
+          <div id="legs" class="tab-pane">
+            <div id="legs-1" class="span2 text-center">
+              <div class="item">
+                <img src="img/robot/legs/legs-1.png" width="200" height="80" alt="Legs 1">
+              </div>
+              <div class="fact">
+                2+3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row text-center">
+        <div id="current-robot" class="current-robot">
+          <div id="current-robot-head" class="head game-target">
+            <div class="item">head</div>
+          </div>
+          <div id="current-robot-body" class="body game-target">
+            <div class="item">body</div>
+          </div>
+          <div id="current-robot-legs" class="legs game-target">
+            <div class="item">legs</div>
+          </div>
+          <div id="current-robot-arms" class="arms game-target">
+            <div class="item">arms</div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    <script src="js/jquery-2.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/robot-game.js" type="text/javascript" charset="utf-8"></script>
+
+    
+  </body>
+</html>

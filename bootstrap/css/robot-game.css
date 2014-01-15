@@ -1,0 +1,22 @@
+
+
+.current-robot .game-target {
+  /*background-color: #ccc;*/
+  height: 80px;
+  margin: 0 auto 10px;
+  width: 200px;
+}
+
+.current-robot {
+  position: relative;
+  text-align: center;
+}
+
+.game-target.arms {
+  height: 240px;
+  left: 300px;
+  position: absolute;
+  top: 0;
+  width: 355px;
+  z-index: -1;
+}
